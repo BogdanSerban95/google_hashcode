@@ -7,4 +7,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     solver = Solver(args.file)
-    print(solver.R, solver.C, solver.rides)
+    solver.solve_problem()
